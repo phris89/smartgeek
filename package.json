@@ -1,0 +1,46 @@
+{
+  "name": "MapProject",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "clean-start": "react-native-scripts start --reset-cache",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "flow": "flow",
+    "lint": "./node_modules/eslint/bin/eslint.js ./* --quiet",
+    "lint-fix": "node ./node_modules/eslint/bin/eslint.js ./* --fix"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.2.2",
+    "expo": "^25.0.0",
+    "native-base": "^2.3.8",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-native": "^0.52.0",
+    "react-native-maps": "^0.20.0",
+    "react-navigation": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^21.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.9.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-react": "^7.4.0",
+    "flow-bin": "^0.57.3",
+    "jest-expo": "^21.0.2",
+    "react-native-branch": "^2.2.4",
+    "react-native-gesture-handler": "^1.0.0-alpha.40",
+    "react-native-scripts": "1.11.1",
+    "react-native-svg": "^6.1.3",
+    "react-test-renderer": "^16.2.0"
+  }
+}
